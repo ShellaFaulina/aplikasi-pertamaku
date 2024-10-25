@@ -1,0 +1,19 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    container_name: aplikasi-pertamaku
+    environment:
+      - SUBDOMAIN=ShellaFaulina
+
+
+
+
+
+
+
+
+
